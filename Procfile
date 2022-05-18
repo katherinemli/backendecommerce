@@ -1,0 +1,1 @@
+web: gunicorn apirestecom.wsgi --log-file -

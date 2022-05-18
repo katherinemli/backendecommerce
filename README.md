@@ -5,28 +5,3 @@ I am a Bachelor of Computer Science & Engineering at the University of Santiago 
 [Watch the code working here](https://Katherineliberonaportafolio.netlify.app).
 
 Have something cool to share? Pop me a message! katherine.lib.ira@gmail.com
-
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```

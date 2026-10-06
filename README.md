@@ -1,13 +1,22 @@
-# Katherine Liberona Irarrázabal
+# E-commerce API (Django REST)
 
-[katherine.lib.ira@gmail.com](mailto:katherine.lib.ira@gmail.com) | (438) 526-1448 | Ontario, Canada | Open Work Permit
+Backend for a small online store: product catalog with inventory, discount coupons and shopping carts. Paired with [frontecommerce](https://github.com/katherinemli/frontecommerce).
 
-Full Stack Developer with 6 years of experience building scalable web applications and microservices. Specialized in performance optimization and large-scale data processing. Successfully delivered critical applications, including e-commerce logistics systems, emergency response platforms, and network management solutions for satellite communications.
+## Highlights
+- **Django REST Framework** viewsets and serializers for products, coupons and carts
+- Inventory decreases automatically when a product is sold; coupons track how many times they were used
+- Seed script to load sample data
+- Deployed on Heroku with Gunicorn + PostgreSQL (SQLite for local dev)
 
-## Technical Skills
+## Stack
+Python · Django 3.2 · Django REST Framework · PostgreSQL · Gunicorn · Heroku
 
-Frontend: React, Vue.js, Angular, CSS, Webpack, D3.js  
-Backend: Go, PHP, C, Django, Python  
-Core: Embedded Systems, Memory Management, Threading, Network Protocols  
-Data: MySQL, MongoDB, Real-time Processing, AI/ML Integration, GIS (Google Maps, Leaflet)  
-DevOps: Docker, AWS, Nginx, Git
+## Run locally
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+---
+Katherine Liberona Irarrázabal · [github.com/katherinemli](https://github.com/katherinemli)
